@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Launch countdown timer</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/a399e955d7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="contained">
+      <section>
+        <h1 class="tittle">We´re launching soon</h1>
+        <div class="contened-cards">
+          <div class="card">
+            <div class="contained-number">
+              <p id="days"></p>
+              <div class="line"></div>
+            </div>
+            <p class="tittle-card">Days</p>
+          </div>
+          <div class="card">
+            <div class="contained-number">
+              <p id="hours"></p>
+              <div class="line"></div>
+            </div>
+            <p class="tittle-card">Hours</p>
+          </div>
+          <div class="card">
+            <div class="contained-number">
+              <p id="minutes"></p>
+              <div class="line"></div>
+            </div>
+            <p class="tittle-card">minutes</p>
+          </div>
+          <div class="card">
+            <div class="contained-number">
+              <p id="seconds"></p>
+              <div class="line"></div>
+            </div>
+            <p class="tittle-card">seconds</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <section class="social-icons">
+        <a class="icon" href="#"><i class="fab fa-facebook"></i></a>
+        <a class="icon" href="#"><i class="fab fa-pinterest"></i></a>
+        <a class="icon" href="#"><i class="fab fa-instagram"></i></a>
+      </section>
+    </footer>
+  </body>
+
+  <script src="main.js"></script>
+</html>
